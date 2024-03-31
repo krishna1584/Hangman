@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to right, #16142b, #3d055d);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .main-container {
+    width: 80%;
+    margin: auto;
+  }
+  .button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .button:hover {
+    background-color: white;
+    color: #2c3e50;
+  }
+  #aboutLink {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
