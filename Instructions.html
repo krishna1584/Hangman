@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman Instructions</title>
+  <style>
+    body {
+      background-color: #2C3E50;
+      color: #ECF0F1;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3em;
+      margin-bottom: 20px;
+      color: #F39C12;
+    }
+    
+    p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .instructions {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #34495E;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      text-align: left;
+    }
+
+    .instruction-item {
+      margin-bottom: 20px;
+    }
+
+    .instruction-title {
+      font-family: 'Lobster', cursive;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #E74C3C;
+    }
+
+    .instruction-description {
+      font-size: 1.1em;
+      color: #ECF0F1;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hangman Instructions</h1>
+  <div class="instructions">
+    <div class="instruction-item">
+      <div class="instruction-title">Objective</div>
+      <div class="instruction-description">The objective of the game is to guess the hidden word correctly before the hangman is fully drawn.</div>
+    </div>
+    <div class="instruction-item">
+      <div class="instruction-title">Getting Started</div>
+      <div class="instruction-description">
+        <ul>
+          <li>Open the game.</li>
+          <li>Below the title, there's a container displaying a placeholder for the hangman image and another container displaying the hidden word with blanks representing each letter.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="instruction-item">
+      <div class="instruction-title">Gameplay</div>
+      <div class="instruction-description">
+        <ul>
+          <li>Begin with a hidden word.</li>
+          <li>Click on the letter buttons displayed below the prompt to make your guesses.</li>
+          <li>If the letter guessed is in the word, it will be revealed in its correct position(s).</li>
+          <li>If the letter guessed is not in the word, a part of the hangman will be drawn.</li>
+          <li>Keep guessing letters until you either win or lose the game.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="instruction-item">
+      <div class="instruction-title">Winning and Losing</div>
+      <div class="instruction-description">
+        <ul>
+          <li>If you guess the entire word before the hangman is fully drawn, you win.</li>
+          <li>If the hangman is fully drawn before you guess the entire word, you lose.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="instruction-item">
+      <div class="instruction-title">Restarting the Game</div>
+      <div class="instruction-description">To play again, refresh the page or implement a "Restart" button that resets the game state.</div>
+    </div>
+    <div class="instruction-item">
+      <div class="instruction-title">Enjoyment</div>
+      <div class="instruction-description">Have fun playing Hangman! Test your vocabulary and guessing skills to see how many words you can correctly guess before the hangman is fully drawn.</div>
+    </div>
+  </div>
+</body>
+</html>
